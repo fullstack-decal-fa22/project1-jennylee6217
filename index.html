@@ -1,0 +1,115 @@
+<!-- PROJECT 1: PERSONAL WEBSITE -->
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <!-- button icons credits to: https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="description" content="Jenny Lee's Personal Website">
+        <meta name="author" content="Jenny Lee">
+        <title>Jenny Lee</title>
+        <script src="javascript.js"></script>
+    </head>
+
+    <style>
+        body {
+            background-color: rgb(219, 193, 237);
+        }
+    </style>
+
+    <body>
+        <img src="sky.jpg" style="height:150px; width:100%;">
+
+        <img src="Jenny Lee pf pic.jpg" class="jenny-pic" alt="Figma TA photo"/>
+        <h1 id="name">Jenny Lee</h1>
+        <h4 id="introduction">a hopeful student studying Cognitive Science at UC
+            Berkeley :) <br> thanks for stopping by!</h4>
+        <button onclick="highFiveDance()">✋🏻High Five!</button>
+        <br>
+
+        <h2 id="subheadings">Contact me!</h2>
+        <!-- Contact Button Icons -->
+        <a href="https://www.facebook.com/jennylee6217" class="fa fa-facebook"
+            target="_blank" style="margin-right:5px;"></a>
+        <a href="https://www.instagram.com/jenny_of_lee/" class="fa fa-instagram"
+            target="_blank"></a>
+        <br>
+        <h5 style="font-family:Verdana; font-weight:normal;"> 
+            💌 jennylee6217@berkeley.edu</h5>
+
+        <div class="projects-grid">
+            <div class="grid-box">
+                <img src="ants.png" style="width:60%; height:auto;"
+                    class="project-images-center">
+                <h3> Ants Vs. SomeBees</h3>
+                <p>Implemented a game called Ants vs. Somebees that is similar to
+                    the famous strategy game, Plants vs.
+                    Zombies. Ants try to protect their colony as the bees move from
+                    right-to-left to invade their
+                    territory.</p>
+                <a href="https://inst.eecs.berkeley.edu/~cs61a/sp22/proj/ants/"
+                    target="_blank">
+                    <h6>spec</h6>
+                </a>
+            </div>
+            <div class="grid-box">
+                <img src="2048.png" style="width:150px; height:auto;"
+                    class="project-images-center">
+                <h3> 2048</h3>
+                <p>Replicated the famous game "2048" by building some of its core
+                    logics and functionalities. </p>
+                <a href="https://cs61bl.org/su22/projects/game2048/"
+                    target="_blank">
+                    <h6>spec</h6>
+                </a>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+            <div class="grid-box">
+                <img src="gitlet.png" style="width:90%; height:auto;"
+                    class="project-images-center">
+                <h3> Gitlet</h3>
+                <p> Implemented a version control or backup system that is similar
+                    to features of Git to store multiple
+                    collections and versions of files. Programmed multiple terminal
+                    commands to support behaviors such as
+                    committing the contents of directories of files, viewing the
+                    history of backed-up files, and restoring
+                    a version of files or entire commits.</p>
+                <a href="https://cs61bl.org/su22/projects/gitlet/" target="_blank">
+                    <h6>spec</h6>
+                </a>
+            </div>
+            <div class="grid-box">
+                <img src="BYOW.png" style="width:100%; height:auto;"
+                    class="project-images-center">
+                <h3> BYOW</h3>
+                <p> "Build Your Own World"; Implemented an engine for randomly
+                    generating 2D, tile-based explorable worlds with rooms and
+                    hallways, which user can explore by walking around and interact
+                    with random objects. Designed game features including
+                    starting a new world, saving current game state, loading the
+                    last saved game state, selecting an avatar appearance
+                    and name, moving the avatar, and an internal mini game.</p>
+                <a href="https://cs61bl.org/su22/projects/byow/" target="_blank">
+                    <h6>spec</h6>
+                </a>
+            </div>
+        </div>
+
+        <img src="sky.jpg" style="height:150px; width:100%;">
+
+        <form class="form-css">
+            <label>How are you feeling today?</label>
+            <br><br>
+            <input type="text" />
+            <input type="submit" onclick="formSubmit()" />
+        </form>
+
+        <h6 style="text-align:center; font-family:Verdana; font-weight:normal;">
+            "carpe diem"</h6>
+    </body>
+</html>
