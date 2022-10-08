@@ -1,0 +1,95 @@
+* {
+    font-family: Verdana;
+}
+
+#name {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 20px; /* shorten white space at the corners */
+}
+
+#introduction {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 20px;
+    font-weight: normal; /* undo bold font */
+}
+
+#subheadings {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 15px;
+    font-weight: lighter;
+}
+
+.jenny-pic {
+    float:left; 
+    margin-left:20px; 
+    margin-top:10px; 
+    margin-right:50px; 
+    width:300px; 
+    height:300px; 
+    border-radius: 5px;
+}
+
+.fa {
+    padding: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+/* Instagram */
+.fa-instagram {
+    background: rgb(242, 97, 206);
+    color: white;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* credits: https://www.w3schools.com/howto/howto_css_image_center.asp */
+.project-images-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px; 
+    margin-bottom:10px; 
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 50px;
+    color: #444;
+    padding: 20px;
+}
+  
+.grid-box {
+    background-color: rgb(137, 104, 162);
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-css {
+    text-align: center;
+    margin-top: 20px;
+}
